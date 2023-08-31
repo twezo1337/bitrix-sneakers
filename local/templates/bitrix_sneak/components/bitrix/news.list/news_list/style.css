@@ -1,0 +1,47 @@
+.card_content_text h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+.card_content_text p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	margin-top: 25px;
+}
+
+.card { 
+	padding-top: 40px;
+}
+
+.card_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card_content img{
+	width: 403px;
+	height: 280px;
+	border-radius: 10px;
+}
+
+.card_content_text {
+	padding-left: 37px;
+	padding-top: 25px;
+	position: relative;
+}
+.card_content_text span {
+	position: absolute;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: #878787;
+	bottom: 0;
+	right: 0;
+}
+

@@ -1,0 +1,123 @@
+.auth_form {
+    position: relative;
+    padding-top: 26px;
+    width: 100%;
+    height: 585px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-left: 359px;
+    padding-right: 362px;
+    padding-bottom: 45px;
+}
+.auth_form h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 33px;
+    text-align: center;
+
+}
+.data_container {
+    width: 100px;
+}
+.input_name {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.auth_input {
+    margin-top: 7px;
+    width: 245px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.input_name_bottom {
+    margin-top: 25px;
+}
+.forgot_pass {
+    text-align: right;
+    margin-top: 7px;
+}
+.forgot_pass a{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5E5E5E;
+}
+.remember_me_container {
+    margin-top: 6px;
+}
+.remember_me {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5E5E5E;
+}
+.auth_btn_container {
+    margin-top: 40px;
+}
+.auth_btn {
+    cursor: pointer;
+    width: 245px;
+    height: 45px;
+    background: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 5px 2px rgba(126, 144, 99, 0.38);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+.auth_btn:hover {
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: #000000;
+}
+.btn_reg_container {
+    margin-top: 20px;
+}
+.btn_reg {
+    width: 245px;
+    height: 45px;
+    background: #7E9063;
+    border: 1px solid #7E9063;
+    box-shadow: 0px 0px 5px 2px rgba(126, 144, 99, 0.38);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.btn_reg a{
+    color: #FFFFFF;
+}
+.img_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

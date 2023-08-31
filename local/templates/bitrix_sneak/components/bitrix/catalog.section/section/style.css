@@ -1,0 +1,26 @@
+.catalog_container {
+    width: 941px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sneakers {
+    width: 941px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.catalog_row_item {
+    width: 210px;
+}
+
+.sneaker_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 40px;
+}

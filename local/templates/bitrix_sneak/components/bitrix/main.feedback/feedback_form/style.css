@@ -1,0 +1,121 @@
+.feedback_form {
+    position: relative;
+    margin-top: 24px;
+    width: 100%;
+    height: 310px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 37px;
+}
+
+.input_data {
+    padding-left: 20px;
+    width: 232px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.input_message {
+    margin-top: 5px;
+    padding: 20px;
+    width: 597px;
+    height: 139px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.input_name {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.form_field_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_block {
+    margin-top: 25px;
+}
+
+.btn_send_container {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn_send_message {
+    cursor: pointer;
+    width: 274px;
+    height: 53px;
+    background: #7E9063;
+    box-shadow: 0px 0px 5px 2px rgba(126, 144, 99, 0.38);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.btn_send_message:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+
+.send_succes {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 330px;
+    height: 238px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.send_succes h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.send_succes img {
+    margin-top: 15px;
+}
+

@@ -1,0 +1,28 @@
+.main_menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.main_menu li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main_menu li a {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 17px;
+	letter-spacing: 0.02em;
+	color: #000000;
+	transition: all ease 0.3s;
+}
+
+.main_menu li a:hover {
+	color: #7E9063;
+}
+
+
+

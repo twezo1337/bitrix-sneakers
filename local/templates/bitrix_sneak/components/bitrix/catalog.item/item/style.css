@@ -1,0 +1,54 @@
+.catalog_item_element {
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.catalog_item_element img{
+    height: 112px;
+    width: 133px;
+}
+
+.catalog_item_element h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.catalog_item_element_price {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.btn_basket {
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+}
+.btn_basket svg {
+    width: 32px;
+    height: 32px;
+    color: #000000;
+}
